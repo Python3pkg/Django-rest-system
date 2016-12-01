@@ -1,0 +1,35 @@
+{% extends "emails/layout.html" %}
+{% block content %}
+
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td class="wrapper">
+                  <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>
+                        <p>Hi there,</p>
+                        <p>Wellcome, edit this later <br>your token is {{ token }}</p>
+                        <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+                          <tbody>
+                            <tr>
+                              <td align="left">
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <td> <a href="{{ url }}" target="_blank">Activate your account</a> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p>This is a really simple email template. Its sole purpose is to get the recipient to click the button with no distractions.</p>
+                        <p>Good luck! Hope it works.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+{% endblock %}

@@ -1,0 +1,5 @@
+django==1.9.9
+pytz==2016.4
+psycopg2==2.6.1
+django-debug-toolbar==1.4
+django-cors-middleware==1.2.0
