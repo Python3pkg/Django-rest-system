@@ -1,2 +1,0 @@
-def getDebug():
-    return True
