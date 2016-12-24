@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-rest-system',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(),
     include_package_data=True,
     license='GPL-3.0',
@@ -25,6 +25,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Framework :: Django :: 1.9',
+        'Framework :: Django :: 1.10',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
