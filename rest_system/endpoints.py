@@ -130,7 +130,7 @@ class service():
         return self.input_data
 
     def getInputJson(self):
-        print(self.input_data.decode("utf-8"))
+        print((self.input_data.decode("utf-8")))
         try:
             return json.loads(self.input_data.decode("utf-8"))
         except AttributeError:

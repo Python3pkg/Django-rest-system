@@ -95,7 +95,7 @@ class manager:
 			response = self.endpoint.getResult()
 
 			if settings.DEBUG:
-				print(json.dumps(response))
+				print((json.dumps(response)))
 
 			self.result["result"] = response["result"]
 			self.result["errors"] = self.result["errors"] + response["errors"]
